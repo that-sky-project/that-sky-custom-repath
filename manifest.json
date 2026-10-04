@@ -1,0 +1,13 @@
+{
+  "package_name": "custom-repath",
+  "version": "0.1.0",
+  "game_edition": 3,
+  "mod_name": "Custom Reset Path",
+  "description": "Redirects the game's data directories (images, Record) to %USERPROFILE%\\Pictures\\Sky",
+  "main": "custom-repath.dll",
+  "dependencies": {},
+  "keywords": [],
+  "author": "Thexiaoyu",
+  "license": "",
+  "website": ""
+}
