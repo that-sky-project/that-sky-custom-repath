@@ -21,10 +21,10 @@ CXX = g++
 
 CFLAGS = -Wall -Wformat -O3 -ffunction-sections -fdata-sections -static -flto=auto -s -Wno-unused-function -Wno-unused-variable
 CFLAGS += -I./src -I./include
-CFLAGS += -I../libraries/htmodloader/includes/htmodloader
+CFLAGS += -I./vendor/htmodloader -I./vendor
 
 LFLAGS = -Wl,--gc-sections,-O3,--as-needed,--version-script=$(VERSION_SCRIPT)
-LFLAGS += -L../libraries/htmodloader/lib -lhtmodloader
+LFLAGS += ./vendor/htmodloader.lib
 LFLAGS += -lole32 -luuid -lshell32
 
 vpath %.c $(SRC_DIRS)

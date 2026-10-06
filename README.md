@@ -10,7 +10,7 @@
 
 | 依赖 | 说明 |
 |------|------|
-| [HTML-Sky](https://github.com/HTMonkeyG/HTML-Sky) | 模组加载器 / SDK。提供 `htmodloader` 头文件与 `libhtmodloader` 链接库，构建与运行都需要它。本 mod 的 `Makefile` 从 `../libraries/htmodloader` 引用其头文件与库。 |
+| [HTML-Sky](https://github.com/HTMonkeyG/HTML-Sky) | 模组加载器 / SDK。提供 `htmodloader` 头文件与 `libhtmodloader` 链接库，构建与运行都需要它。 |
 
 ---
 
